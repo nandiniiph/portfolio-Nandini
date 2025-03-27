@@ -1,0 +1,315 @@
+/* SCROLLING */
+html {
+    scroll-behavior: smooth;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(to right, #6a5248, #b08968);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.hero img {
+    width: 300px; 
+    border-radius: 50%;
+    margin-right: 40px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* ABOUT ME */
+.about {
+    background-color: #f5f0eb;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #6a5248;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* EDUCATION SECTION */
+.education {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 2.5rem;
+    color: #6a5248;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education li {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 10px 0;
+    font-weight: 500;
+    background: #f8f1e9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    color: #6a5248;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.experience p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* EXPERIENCE LIST */
+.experience-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-list li {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 2px 0;
+    font-weight: 500;
+    background: #f8f1e9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6a5248;
+    color: white;
+    padding: 15px 10px;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTION */
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+/* SLIDER */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+}
+
+.slider img:first-child {
+    display: block;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* SWIPER */
+.swiper {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Styling untuk Contact Me */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: none;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info span {
+    color: #e8a23c;
+    font-weight: bold;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.contact-details i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #e8a23c;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    color: #e8a23c;
+}
+
+.contact-form {
+    width: 45%;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e8a23c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form button i {
+    margin-left: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #d0892e;
+}
